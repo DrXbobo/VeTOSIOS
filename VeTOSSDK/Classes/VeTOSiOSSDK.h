@@ -30,6 +30,4 @@ FOUNDATION_EXPORT const unsigned char VeTOSiOSSDKVersionString[];
 #import "TOSUtilityHeader.h"
 #import "TOSClientHeader.h"
 #import "TOSUtilityHeader.h"
-#import "TOSTaskHeader.h"
 #import "TOSNetworkingHeader.h"
-
