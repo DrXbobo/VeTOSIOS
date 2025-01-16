@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   A cocoapods of ve-tos-ios-sdk. Source code copy from https://github.com/volcengine/ve-tos-ios-sdk.
                        DESC
 
-  s.homepage         = 'https://github.com/wenbo xu/VeTOSSDK'
+  s.homepage         = 'https://github.com/DrXbobo/VeTOSIOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wenbo xu' => 'xuwenbo@sencent.com' }
@@ -31,12 +31,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'VeTOSSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'VeTOSSDK' => ['VeTOSSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'VeTOSSDK/Classes/*.h'
 end
